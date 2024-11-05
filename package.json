@@ -1,0 +1,25 @@
+{
+  "name": "sams-dark-theme",
+  "displayName": "sams-dark-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sam
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SamsDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SamsDark-color-theme.json"
+      }
+    ]
+  }
+}
